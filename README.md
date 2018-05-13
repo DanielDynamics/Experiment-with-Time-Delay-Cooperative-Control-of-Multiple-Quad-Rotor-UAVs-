@@ -5,11 +5,11 @@ This project is devoted to implement a real world test for a time-delay cooperat
 Hardware includes: Raspberry-Pi, Brushless DC motors (CW & CCW), 20 Amp ESCs, 2200mAh 3S 25C Lipo battery pack, Propellers, MPU6050 Gyroscopes, Quad-Rotor UAV frames.
 
 Pin connection on Raspberry-Pi:
-Servo           attitude    pin
-Servo-0 (cw)           pitch+       7;
-Servo-2 (cw)           pitch -      12;
-Servo-1 (ccw)          roll+        11;
-Servo-3 (ccw)          roll-        13;
+Servo                  attitude     pin
+Servo-0 (cw)           pitch+       pin-7;
+Servo-2 (cw)           pitch -      pin-12;
+Servo-1 (ccw)          roll+        pin-11;
+Servo-3 (ccw)          roll-        pin-13;
 
 The ServoBlaster program should be run before running the UAV programs.
 
