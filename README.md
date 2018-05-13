@@ -6,10 +6,10 @@ Hardware includes: Raspberry-Pi, Brushless DC motors (CW & CCW), 20 Amp ESCs, 22
 
 Pin connection on Raspberry-Pi:
 Servo           attitude    pin
-0 (cw)           pitch+       7
-2 (cw)           pitch -      12
-1 (ccw)          roll+        11
-3 (ccw)          roll-        13
+Servo-0 (cw)           pitch+       7
+Servo-2 (cw)           pitch -      12
+Servo-1 (ccw)          roll+        11
+Servo-3 (ccw)          roll-        13
 
 The ServoBlaster program should be run before running the UAV programs.
 
